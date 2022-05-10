@@ -20,16 +20,16 @@ class LinkedList {
     this.tail = newNode;
   }
   removeFront() {
-    if ((this.head = null)) {
+    if (this.head == null) {
       console.log("cannot remove from empty Linked List");
       return;
     }
-    let data = this.data;
+    let data = this.head.data;
     this.head = this.head.next;
     return data;
   }
   top() {
-    if (this.head != null) {
+    if (this.head !== null) {
       return this.head.data;
     }
   }
