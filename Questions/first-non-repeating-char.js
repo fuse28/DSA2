@@ -1,3 +1,5 @@
+//Q)Given a stream of characters, find the first non repeating characters from the stream.
+
 let s = "abab";
 let map = {};
 
