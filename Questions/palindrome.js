@@ -12,6 +12,9 @@
 // } else {
 //   console.log(false);
 // }
+
+//x=123
+
 var isPalindrome = function (x) {
   let duplicate = x;
   let reverse = 0;
@@ -20,5 +23,5 @@ var isPalindrome = function (x) {
     reverse = reverse * 10 + lastDigit;
     duplicate = Math.floor(duplicate / 10);
   }
-  return x == reverse;
+  return x == reverse; //ans=321
 };
